@@ -20,8 +20,6 @@ class Level(fileName: String) : Drawable, java.io.Serializable {
 
     init {
         load(fileName)
-//        this.movableParticle = movableParticle
-//        this.collidables = collidables
     }
 
     fun pushParticle(p: Particle) {
